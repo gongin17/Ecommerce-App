@@ -59,9 +59,9 @@ public class StripeService {
     public Session handleCheckout(List<CheckoutItem> checkoutItemList) throws StripeException {
     	
     	
-    	Stripe.apiKey = "sk_test_51HN1SDDnSY2xnLBJol5Ha7ocX7JBcGWsmhdRzLjRfKz69qUbZoG0TDNgcxFLhTJRo3oMMruu2dCqRYioeN0uwg9d00BhEPkRTt";
+    	Stripe.apiKey = "sk_test";
     	
-    	 String YOUR_DOMAIN = "http://localhost:3000";
+    	 String YOUR_DOMAIN = "";
     	 
     	 List<SessionCreateParams.LineItem> sessionItemList= new ArrayList<>();
     	 
