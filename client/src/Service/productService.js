@@ -1,8 +1,8 @@
 import axios from "axios";
 
-const PRODUCT_LIST_API_URL = "http://ecommercebackend-env.eba-qc3iipmr.us-east-1.elasticbeanstalk.com/products";
-const PRODUCT_API_URL = "http://ecommercebackend-env.eba-qc3iipmr.us-east-1.elasticbeanstalk.com/product";
-const API_URL = "http://ecommercebackend-env.eba-qc3iipmr.us-east-1.elasticbeanstalk.com";
+const PRODUCT_LIST_API_URL = "http://api/products";
+const PRODUCT_API_URL = "http://api/product";
+const API_URL = "http://api";
 
 class ProductService {
   getProducts() {
