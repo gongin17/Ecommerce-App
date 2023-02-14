@@ -21,7 +21,7 @@ const handleCheckout= async(e)=>{
 
   const stripe = await getStripe();
   
-  return  axios.post("http://ecommercebackend-env.eba-qc3iipmr.us-east-1.elasticbeanstalk.com/api/payment/create-checkout-session",fData)
+  return  axios.post("http:/api/api/payment/create-checkout-session",fData)
   .then((response) => {
     console.log(response);
    
